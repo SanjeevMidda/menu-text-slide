@@ -1,0 +1,38 @@
+* {
+  margin: 0px;
+  font-family: Helvetica, sans-serif;
+  font-weight: 300;
+  background-color: black;
+  color: white;
+  transition: all 1.5s;
+}
+
+.App {
+  display: flex;
+  height: 100dvh;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid white; */
+  width: 80dvw;
+  height: 80dvh;
+}
+
+h4 {
+  font-weight: 300;
+}
+
+h4:hover {
+  transform: scale(1.1);
+  color: aquamarine;
+}
+
+h1 {
+  font-size: 100px;
+  font-weight: 300;
+  color: white;
+}
